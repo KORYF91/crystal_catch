@@ -1,8 +1,8 @@
 h1 {
-    font: 100;
     color: red;
-    font-size: 60;
+    font-size: 80pt;
 }
 .cImg{
-    size: 20px;
+    border-image-width: 20px;
+    border-block-style: 10pc;
 }
