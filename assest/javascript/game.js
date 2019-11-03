@@ -4,6 +4,8 @@ var startBtn = "";
 var userScr = 0;
 var totalScore = 0;
 var matchNum = 0;
+var wins = 0;
+var losses = 0;
 
 $(document).ready(function () {
     $("#startButton").on("click", function () {
