@@ -8,11 +8,11 @@ var matchNum = 0;
 $(document).ready(function () {
     $("#startButton").on("click", function () {
         var ranNum = [];
-        for (var i = 0; i < 3; i++) {
-            var random = Math.floor(Math.random() * 3);
+        for (var i = 0; i < 1; i++) {
+            var random = Math.floor(Math.random() * 120 - 19 +1) +19;
             ranNum.push(random);
         }
-        $("#randNum").prepend("<br><hr>" + ranNum.join(""));
+        $("#randNum").append("<br><hr>" + ranNum.join(""));
     });
 });
 
@@ -28,47 +28,57 @@ $(document).ready(function () {
 });
 function crystal() {
     $(".crystals").on("click", function () {
-        var ranNum1 = [];
-        for (var i = 0; i < 1; i++) {
-            var random = Math.floor(Math.random() * 2);
-            ranNum1.push(random);
-        }
-           $("#cImg").prepend("<br><hr>" + ranNum1.join(""));
+        
            console.log("this :")
         });
     };
 
  $(document).ready(function () {
    $("#cImg").on("click", function () {
-         crystal
-         console.log("this :")
+    var ranNum = [];
+        for (var i = 0; i < 1; i++) {
+            var random = Math.floor(Math.random() * 12 - 9 + 1) +9;
+            ranNum.push(random);
+         console.log("this :" + ranNum)
 
-     });
+     };
+     $("#cImg").append("<br><hr>" + ranNum.join(""));
  });
+});
  $(document).ready(function () {
    $("#cImg1").on("click", function () {
-         //var getIncreaseValue = increment();
-         // $("#calcScore").append(getIncreaseValue)
-         console.log("this :")
+       var ranNum = [];
+    for (var i = 0; i < 1; i++) {
+        var random = Math.floor(Math.random() *  12 - 9 + 1) +9;
+        ranNum.push(random);
+     console.log("this :" + ranNum)
 
-     });
- });
+ };
+ $("#cImg1").append("<br><hr>" + ranNum.join(""));
+});
+});
  $(document).ready(function () {
    $("#cImg2").on("click", function () {
-         //var getIncreaseValue = increment();
-         // $("#calcScore").append(getIncreaseValue)
-         console.log("this :")
+       var ranNum = [];
+    for (var i = 0; i < 1; i++) {
+        var random = Math.floor(Math.random() *  12 - 9 + 1) +9;
+        ranNum.push(random);
+     console.log("this :" + ranNum)
 
-     });
- });
+ };
+ $("#cImg2").append("<br><hr>" + ranNum.join(""));
+});
+});
  $(document).ready(function () {
    $("#cImg3").on("click", function () {
-       var secretNum =crystal();
-         //var getIncreaseValue = increment();
-         // $("#calcScore").append(getIncreaseValue)
-         console.log("this :" + secretNum);
+       var ranNum = [];
+    for (var i = 0; i < 1; i++) {
+        var random = Math.floor(Math.random() *  12 - 9 + 1) +9;
+        ranNum.push(random);
+     console.log("this :" + ranNum)
 
-     });
- });
-
+ };
+ $("#cImg3").append("<br><hr>" + ranNum.join(""));
+});
+});
 // refer back to fridge act
