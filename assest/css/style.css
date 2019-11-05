@@ -2,7 +2,16 @@ h1 {
     color: red;
     font-size: 80pt;
 }
-.cImg{
-    border-image-width: 20px;
-    border-block-style: 10pc;
+#cImg{
+    border-style: solid;
+    border: 20px;
+    border-color: green;
+}
+#score {
+    border-style: solid;
+    border: 20px;
+    border-color: green;
+    height : 30px;
+    width: 35px;
+    float: right;
 }
